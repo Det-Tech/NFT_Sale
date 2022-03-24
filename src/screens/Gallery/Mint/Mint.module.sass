@@ -1,0 +1,193 @@
+@import ../../../styles/helpers
+
+.section
+    overflow: hidden
+.container
+    display: flex;
+    justify-content: center;
+
+.wrapper
+    position: relative
+    //background-image: url('../../../images/Minting_1ldpi.jpg')
+    //background-repeat: no-repeat
+    max-width: 100%
+
+.space
+    height: 10vh
+    +m
+        height: 10vh
+
+.title
+    margin-top: 32px
+    margin-bottom: 12px
+    +d
+        //margin-bottom: 16px
+    +m
+        //margin-bottom: 16px
+        text-align: center
+
+.subtitle
+    margin-bottom: 0px
+    font-size: 40px !important
+    font-weight: 100 !important
+    +d
+        //margin-bottom: 16px
+    +m
+        //margin-bottom: 16px
+        font-size: 30px !important
+        text-align: center
+
+.inner
+    margin: 0 -16px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+.gallery
+    display: flex
+    flex-wrap: wrap
+    margin: -8px -4px 16px
+
+.preview
+    flex: 0 0 calc(33.333% - 8px)
+    width: calc(33.333% - 8px)
+    margin: 8px 4px 0
+    &:first-child
+        flex: 0 0 calc(100% - 8px)
+        width: calc(100% - 8px)
+    img
+        width: 100%
+        height: 450px
+        +m
+            height: 100%
+        //border-radius: 8px
+
+.subtitle
+    margin-bottom: 8px
+    width: max-content
+    +m
+        width: inherit
+    +body-bold-1
+    color: $neutrals2
+    
+    +dark
+        color: $neutrals8
+
+.line
+    display: flex
+    align-items: center
+
+
+.user
+    display: flex
+    +m
+        display: block
+        text-align: center
+    // display: flex
+    text-align: center
+    margin-right: auto
+    color: $neutrals6
+    +dark
+        color: $neutrals6
+    span
+        font-weight: 500
+
+.avatar
+    flex-shrink: 0
+    width: 24px
+    height: 24px
+    margin-right: 12px
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        border-radius: 50%
+    
+.counter
+    flex-shrink: 0
+
+.head
+    max-width: 600px
+    margin-bottom: 64px
+    +x
+        margin-bottom: 64px
+    +m
+        margin-bottom: 64px
+        display: center
+
+.section
+    padding-top: 32px
+
+.heading
+    display: flex
+    +m
+        display: contents
+    
+.iconcircle
+    width: 100%
+    direction: rtl
+    padding-top: 36px
+    margin-bottom: 64px
+    margin-right: -40px
+    +x
+        margin-bottom: 64px
+    +m
+       display: none
+
+.item:hover > *
+        color: $neutrals4!important
+
+.opensea
+    padding-top: 20px !important
+    padding-bottom: 20px !important
+    font-size: 20px !important
+    
+.users
+    margin-bottom: auto
+    
+
+.control
+    margin-top: 40px
+    +m
+        margin-top: 32px
+
+.button
+    width: 100%
+    &:not(:last-child)
+        margin-bottom: 8px
+
+.range
+    margin-bottom: 0px
+    padding-top: 32px
+
+
+.scale
+    display: flex
+    justify-content: space-between
+    font-weight: 500
+
+.mintCnts
+    
+    padding-bottom: 10px
+    font-size: 20px !important
+    text-align: center
+    
+
+.label
+    padding-bottom: 8px
+    font: message-box
+    color: aquamarine
+    text-align: center
+
+.mintbtns
+    width: 180px
+    top: -10px
+    left: calc(50% - 80px)
+    padding-bottom: 10px
+    padding: 20px
+    border-radius: 50%
+    position: relative
+    //top: 60px
+	
